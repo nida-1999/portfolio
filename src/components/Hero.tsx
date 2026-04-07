@@ -5,9 +5,7 @@ import Button from "@mui/material/Button";
 
 const roles = [
   "Frontend Engineer",
-  "React Specialist",
   "TypeScript Expert",
-  "UI/UX Craftsperson",
   "Performance Optimizer",
 ];
 
@@ -263,7 +261,7 @@ export default function Hero() {
           ))}
         </div>
       </div>
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-30">
+      {/* <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-30">
         <span
           className="text-cream uppercase"
           style={{
@@ -275,7 +273,7 @@ export default function Hero() {
           Scroll
         </span>
         <div className="w-px h-12 bg-gradient-to-b from-rose to-transparent animate-pulse" />
-      </div>
+      </div> */}
     </section>
   );
 }

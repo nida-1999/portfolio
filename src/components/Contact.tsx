@@ -106,7 +106,7 @@ export default function Contact() {
                   icon: "⌂",
                   label: "LinkedIn",
                   value: "linkedin.com/in/nida-tarannum",
-                  href: "https://linkedin.com",
+                  href: "https://www.linkedin.com/in/nida-tarannum001/",
                   color: "#C8737A",
                 },
               ].map((item) => (
